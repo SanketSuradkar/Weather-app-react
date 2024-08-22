@@ -5,12 +5,15 @@
 }
 
 html {
-	background-color: #00022e;
+	/* background-color: #00022e; */
+	background-image: url("/src/bg.jpg") ;
+	background-size: cover;
+	
 }
 
 .app-name {
-	font-size: 2.3rem;
-	color: rgb(255, 0, 0);
+	font-size: 3.0rem;
+	color: rgb(255, 246, 246);
 	margin-bottom: 16px;
 }
 
@@ -21,9 +24,9 @@ html {
 	align-items: center;
 	width: 600px;
 	min-height: 440px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.155);
 	text-align: center;
-	margin: 128px auto;
+	margin: 108px auto;
 	border-radius: 10px;
 	padding-bottom: 32px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -52,20 +55,20 @@ html {
 
 .city-name {
 	font-size: 1.5rem;
-	color: #014dff;
+	color: #000000;
 	margin-bottom: 8px;
 }
 
 .date {
 	font-size: 1.25em;
 	font-weight: 500;
-	color: #777;
+	color: #0f0594;
 }
 
 .icon-temp {
 	font-size: 3rem;
 	font-weight: 700;
-	color: #1e2432;
+	color: #070707;
 	text-align: center;
 }
 
@@ -76,7 +79,8 @@ html {
 
 .des-wind {
 	font-weight: 500;
-	color: #666;
+	color: #080445;
+
 }
 
 .error-message {
@@ -108,5 +112,17 @@ html {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px rgba(36, 0, 0, 0.2);
+}
+@media only screen and (max-width: 633px){
+
+    .App {
+	
+	width: 350px;
+	margin-top: 200px;
+}
+html {
+	background-size: 200cqmax;
+	background-repeat: no-repeat;
+}
 }
