@@ -3,7 +3,7 @@
 
 Welcome to the **Weather Application**! This project is a simple and intuitive weather forecasting tool built using **React.js**. It allows users to check the current weather conditions for any city they search for.
 
-## live preview
+## Live Preview
 
 
 clich <a href="https://weather-app-sanketss.netlify.app/">here</a> to preview 
