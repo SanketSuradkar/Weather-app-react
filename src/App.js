@@ -1,4 +1,4 @@
-//App.js
+//here the weather api is used and the you can find it below in the code its fully working and you can use it for free ==Sanketsuradkar 
 
 import { Oval } from 'react-loader-spinner';
 import React, { useState } from 'react';
